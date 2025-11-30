@@ -6,7 +6,7 @@ public class HdnCodeExternalGLFWProject : BaseCppProject
 {
     public HdnCodeExternalGLFWProject()
     {
-        Name = "hdn.code.external.glfw";
+        Name = "dm.code.external.glfw";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
